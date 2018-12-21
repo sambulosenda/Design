@@ -31,7 +31,7 @@ li a {
 }
 
 .highlighted {
-  color: #7c5f2d;
+  color: #ecb24c;
   font-weight: bold;
 }
 
@@ -64,14 +64,14 @@ li a {
 
 .content {
   background-color: #232323;
-  color: grey;
+  color:#aeadad;
   font-family: "Roboto", sans-serif;
 
   padding: 25px;
   margin: 9px 100px 100px;
 }
 .title {
-  color: #7c5f2d;
+  color: #ecb24c;
   font-family: "Open Sans Condensed", sans-serif;
   margin-left: 20px;
 }
@@ -140,6 +140,7 @@ li a {
 
 .my-text {
   display: block;
+  color: grey;
   font-family: Roboto, sans-serif;
 
 }
@@ -168,3 +169,46 @@ li a {
 a:link {
   text-decoration: none;
 }
+
+.buttomborder{
+  margin-bottom: 15px;
+}
+
+select {
+  margin: 50px;
+  width: 300px;
+  color: white;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #000;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background:  #000;
+}
+
+/* CAUTION: IE hackery ahead */
+select::-ms-expand { 
+    display: none; /* remove default arrow on ie10 and ie11 */
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background:none\9;
+        padding: 5px\9;
+    } 
+}
+
+
+#hr { 
+  display: block;
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  background-color: #333; /* Modern Browsers */
+} 
