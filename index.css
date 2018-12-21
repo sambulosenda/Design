@@ -1,0 +1,170 @@
+body {
+  background-color: #000000;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #171717;
+}
+
+li {
+  float: left;
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  padding: 10px;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.highlighted {
+  color: #7c5f2d;
+  font-weight: bold;
+}
+
+.profile {
+  float: right;
+  margin-right: 60px;
+}
+
+.Stunt {
+  font-size: 16px;
+  color: rgb(172, 90, 75);
+}
+.topnav1 {
+  background-color: #242424;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+
+  padding-bottom: 13px;
+  padding-top: 13px;
+}
+
+.site {
+  background-color: #232323;
+  color: white;
+  margin-top: 0px;
+  padding: 0px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+}
+
+.content {
+  background-color: #232323;
+  color: grey;
+  font-family: "Roboto", sans-serif;
+
+  padding: 25px;
+  margin: 9px 100px 100px;
+}
+.title {
+  color: #7c5f2d;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-left: 20px;
+}
+
+.right-icons {
+  float: right;
+  padding-right: 50px;
+  padding: 10px;
+  margin-right: 200px;
+}
+
+.divider {
+  border-right: 1px solid rgb(15, 12, 12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+ height: 300px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fas1 {
+  margin-right: 40px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 10px;
+  background-color: white;
+  height: 10px;
+  border-radius: 50%;
+  padding-left: 10px;
+  float: right;
+  margin: 10px;
+}
+
+.buttomcontrols {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e2c2c;
+  border: 5px solid #2e2c2c;
+  margin: 0;
+   border-radius: 20px;
+}
+
+
+.my-fancy-container {
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.my-text {
+  display: block;
+  font-family: Roboto, sans-serif;
+
+}
+
+.my-icon {
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+
+.row {
+  padding-top: 0px;
+}
+
+.brown{
+  color: rgb(121, 91, 91);
+  padding-right: 30px;
+}
+
+.grey{
+  color: grey;
+  padding-left: 10px;
+}
+
+
+a:link {
+  text-decoration: none;
+}
