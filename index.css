@@ -96,7 +96,6 @@ li a {
   float: left;
   width: 33.33%;
   padding: 10px;
- height: 300px;
 
 }
 
@@ -129,6 +128,8 @@ li a {
   border: 5px solid #2e2c2c;
   margin: 0;
    border-radius: 20px;
+   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+
 }
 
 
@@ -185,6 +186,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border-radius: 20px;
   background:  #000;
 }
 
@@ -210,5 +212,6 @@ select::-ms-expand {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
+  
   background-color: #333; /* Modern Browsers */
 } 
