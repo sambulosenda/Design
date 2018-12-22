@@ -1,31 +1,20 @@
-<!DOCTYPE html>
-<html class="no-js">
-<head>
-  <!--
-    I want to join this company as a Junior Front End Developer! 
-     --->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>I am a coder</title>
-  <meta name="description" content="Interview Website" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="index.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-    crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
+import React, { Component } from 'react';
+//import logo from './logo.svg';
+import './App.css';
 
-<body>
+class App extends Component {
+  render() {
+    return (
+    
   <div class="site">
     <ul class="topnav">
-      <li class="menuitem"><a href="index.html">Iste Natus</a></li>
-      <li class="menuitem"><a href="index.html">Explicabo</a></li>
-      <li class="menuitem"><a href="index.html">Omnis</a></li>
-      <li class="menuitem"><a href="index.html">Ipsa quae</a></li>
-      <li class="menuitem"><a href="index.html"><div class="highlighted">Perspiciatis Unde</div></a></li>
+      <li>Iste Natus</li>
+      <li>Explicabo</li>
+      <li>Omnis</li>
+      <li>Ipsa quae</li>
+      <li class="highlighted">Perspiciatis Unde </li>
       <li class="avatar"> </li>
-      <li class="profile"><a href="index.html">Veris Veritatis<i class="fas fa-angle-down"></a></i></li>
+      <li class="profile">Veris Veritatis<i class="fas fa-angle-down"></i></li>
     </ul>
 
     <ul class="topnav1">
@@ -116,8 +105,7 @@
         <hr>
         <div class="row ">
           <a href="" class="brown">Iste Natus</a>
-          <!--<div class="dropdown">
- </div>-->
+
           <select>
             <option value="Accusantium deloremque laudant">Accusantium deloremque laudant</option>
             <option value="Architecto beatae vitae">Architecto beatae vitae</option>
@@ -129,10 +117,11 @@
           <a href="" class="highlighted">Unde omnis</a>
         </div>
       </div>
-    </div>
-  </div>
-  <script src="" async defer></script>
+  
+      </div>
+     
+    );
+  }
+}
 
-</body>
-
-</html>
+export default App;

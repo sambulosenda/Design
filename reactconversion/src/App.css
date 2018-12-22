@@ -20,19 +20,6 @@ li {
   font-weight: 100;
   font-size: 14px;
   padding: 10px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-
-menuitem {
-  float: left;
-  color: grey;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 100;
-  font-size: 14px;
-  padding: 10px;
-  padding-top: 1px;
-  padding-bottom: 1px;
 }
 
 li a {
@@ -228,3 +215,4 @@ select::-ms-expand {
   
   background-color: #333; /* Modern Browsers */
 } 
+
