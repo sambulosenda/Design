@@ -23,6 +23,10 @@ li {
   padding-top: 1px;
   padding-bottom: 1px;
 }
+.low {
+  margin-bottom: 2px;
+  padding-top: 110px;
+}
 
 menuitem {
   float: left;
@@ -42,7 +46,10 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+.underline {
+  text-decoration: underline;
+  padding-top: 10px;
+}
 .highlighted {
   color: #ecb24c;
   font-weight: bold;
@@ -225,6 +232,5 @@ select::-ms-expand {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-  
   background-color: #333; /* Modern Browsers */
 } 
