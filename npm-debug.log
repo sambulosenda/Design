@@ -1,0 +1,266 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react',
+1 verbose cli   'react-dom',
+1 verbose cli   '$',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-bootstrap' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react
+8 silly fetchPackageMetaData react-dom
+9 silly fetchPackageMetaData $
+10 silly fetchPackageMetaData npm
+11 silly fetchPackageMetaData install
+12 silly fetchPackageMetaData react-bootstrap
+13 silly fetchNamedPackageData react
+14 silly mapToRegistry name react
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/react
+18 silly fetchNamedPackageData react-dom
+19 silly mapToRegistry name react-dom
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+23 silly fetchOtherPackageData $
+24 silly cache add args [ '$', null ]
+25 verbose cache add spec $
+26 silly fetchNamedPackageData npm
+27 silly mapToRegistry name npm
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/npm
+31 silly fetchNamedPackageData install
+32 silly mapToRegistry name install
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/install
+36 silly fetchNamedPackageData react-bootstrap
+37 silly mapToRegistry name react-bootstrap
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/react-bootstrap
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: '$',
+41 silly cache add   scope: null,
+41 silly cache add   name: null,
+41 silly cache add   rawSpec: '$',
+41 silly cache add   spec: '/home/sambulo/Desktop/JOBINTERVIEW/$',
+41 silly cache add   type: 'local' }
+42 error addLocal Could not install /home/sambulo/Desktop/JOBINTERVIEW/$
+43 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/sambulo/Desktop/JOBINTERVIEW/$'
+43 silly fetchPackageMetaData  error for $ { Error: ENOENT: no such file or directory, open '/home/sambulo/Desktop/JOBINTERVIEW/$'
+43 silly fetchPackageMetaData   errno: -2,
+43 silly fetchPackageMetaData   code: 'ENOENT',
+43 silly fetchPackageMetaData   syscall: 'open',
+43 silly fetchPackageMetaData   path: '/home/sambulo/Desktop/JOBINTERVIEW/$' }
+44 verbose request uri https://registry.npmjs.org/react
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 1:50:01 PM
+47 verbose request id 2e8d2502fc54a127
+48 verbose etag W/"73efaf42670f5bf327289c916434a140"
+49 verbose lastModified Thu, 20 Dec 2018 12:40:17 GMT
+50 http request GET https://registry.npmjs.org/react
+51 verbose request uri https://registry.npmjs.org/react-dom
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 1:50:01 PM
+54 verbose etag W/"f288daf8c1db90a443c97c207ee7a8aa"
+55 verbose lastModified Thu, 20 Dec 2018 12:40:28 GMT
+56 http request GET https://registry.npmjs.org/react-dom
+57 verbose request uri https://registry.npmjs.org/install
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 1:50:01 PM
+60 verbose etag W/"79ef3e29b7f18e030ce085a80ab5377e"
+61 verbose lastModified Sat, 13 Oct 2018 23:15:15 GMT
+62 http request GET https://registry.npmjs.org/install
+63 verbose request uri https://registry.npmjs.org/react-bootstrap
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 1:50:01 PM
+66 verbose etag W/"5c6e4c4d58323aa48f076699a2230980"
+67 verbose lastModified Wed, 14 Nov 2018 15:46:19 GMT
+68 http request GET https://registry.npmjs.org/react-bootstrap
+69 verbose request uri https://registry.npmjs.org/npm
+70 verbose request no auth needed
+71 info attempt registry request try #1 at 1:50:02 PM
+72 verbose etag W/"647d10477d3ca923ad1954366807a379"
+73 verbose lastModified Wed, 12 Dec 2018 22:01:35 GMT
+74 http request GET https://registry.npmjs.org/npm
+75 http 304 https://registry.npmjs.org/react
+76 verbose headers { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+76 verbose headers   connection: 'keep-alive',
+76 verbose headers   'set-cookie':
+76 verbose headers    [ '__cfduid=d22aaa94d4228436ab617a41272f8ed721545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+76 verbose headers   'cf-cache-status': 'HIT',
+76 verbose headers   'cache-control': 'max-age=300',
+76 verbose headers   'cf-ray': '48dd02f45c4b35f6-LHR',
+76 verbose headers   etag: '"73efaf42670f5bf327289c916434a140"',
+76 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+76 verbose headers   'last-modified': 'Thu, 20 Dec 2018 12:40:17 GMT',
+76 verbose headers   vary: 'accept-encoding, accept',
+76 verbose headers   'x-amz-meta-rev': '1202-6a30aae554e374f06b7df4bed8006a27',
+76 verbose headers   server: 'cloudflare' }
+77 silly get cb [ 304,
+77 silly get   { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+77 silly get     connection: 'keep-alive',
+77 silly get     'set-cookie':
+77 silly get      [ '__cfduid=d22aaa94d4228436ab617a41272f8ed721545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+77 silly get     'cf-cache-status': 'HIT',
+77 silly get     'cache-control': 'max-age=300',
+77 silly get     'cf-ray': '48dd02f45c4b35f6-LHR',
+77 silly get     etag: '"73efaf42670f5bf327289c916434a140"',
+77 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+77 silly get     'last-modified': 'Thu, 20 Dec 2018 12:40:17 GMT',
+77 silly get     vary: 'accept-encoding, accept',
+77 silly get     'x-amz-meta-rev': '1202-6a30aae554e374f06b7df4bed8006a27',
+77 silly get     server: 'cloudflare' } ]
+78 verbose etag https://registry.npmjs.org/react from cache
+79 verbose get saving react to /home/sambulo/.npm/registry.npmjs.org/react/.cache.json
+80 http 304 https://registry.npmjs.org/react-dom
+81 verbose headers { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+81 verbose headers   connection: 'keep-alive',
+81 verbose headers   'set-cookie':
+81 verbose headers    [ '__cfduid=d745a530ac284a6149db964c3b6680dce1545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+81 verbose headers   'cf-cache-status': 'HIT',
+81 verbose headers   'cache-control': 'max-age=300',
+81 verbose headers   'cf-ray': '48dd02f4685e35b4-LHR',
+81 verbose headers   etag: '"f288daf8c1db90a443c97c207ee7a8aa"',
+81 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+81 verbose headers   'last-modified': 'Thu, 20 Dec 2018 12:40:28 GMT',
+81 verbose headers   vary: 'accept-encoding, accept',
+81 verbose headers   'x-amz-meta-rev': '453-db97aa0be6f52be889b2d799e7e2dadf',
+81 verbose headers   server: 'cloudflare' }
+82 silly get cb [ 304,
+82 silly get   { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+82 silly get     connection: 'keep-alive',
+82 silly get     'set-cookie':
+82 silly get      [ '__cfduid=d745a530ac284a6149db964c3b6680dce1545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+82 silly get     'cf-cache-status': 'HIT',
+82 silly get     'cache-control': 'max-age=300',
+82 silly get     'cf-ray': '48dd02f4685e35b4-LHR',
+82 silly get     etag: '"f288daf8c1db90a443c97c207ee7a8aa"',
+82 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+82 silly get     'last-modified': 'Thu, 20 Dec 2018 12:40:28 GMT',
+82 silly get     vary: 'accept-encoding, accept',
+82 silly get     'x-amz-meta-rev': '453-db97aa0be6f52be889b2d799e7e2dadf',
+82 silly get     server: 'cloudflare' } ]
+83 verbose etag https://registry.npmjs.org/react-dom from cache
+84 verbose get saving react-dom to /home/sambulo/.npm/registry.npmjs.org/react-dom/.cache.json
+85 http 304 https://registry.npmjs.org/install
+86 verbose headers { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+86 verbose headers   connection: 'keep-alive',
+86 verbose headers   'set-cookie':
+86 verbose headers    [ '__cfduid=ddab0e2ee308a39912d766634162cb0341545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+86 verbose headers   'cf-cache-status': 'HIT',
+86 verbose headers   'cache-control': 'max-age=300',
+86 verbose headers   'cf-ray': '48dd02f468d735a8-LHR',
+86 verbose headers   etag: '"79ef3e29b7f18e030ce085a80ab5377e"',
+86 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+86 verbose headers   'last-modified': 'Sat, 13 Oct 2018 23:15:15 GMT',
+86 verbose headers   vary: 'accept-encoding, accept',
+86 verbose headers   'x-amz-meta-rev': '78-669a628d0cec9ad2697e4bccf6ae054b',
+86 verbose headers   server: 'cloudflare' }
+87 silly get cb [ 304,
+87 silly get   { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+87 silly get     connection: 'keep-alive',
+87 silly get     'set-cookie':
+87 silly get      [ '__cfduid=ddab0e2ee308a39912d766634162cb0341545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+87 silly get     'cf-cache-status': 'HIT',
+87 silly get     'cache-control': 'max-age=300',
+87 silly get     'cf-ray': '48dd02f468d735a8-LHR',
+87 silly get     etag: '"79ef3e29b7f18e030ce085a80ab5377e"',
+87 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+87 silly get     'last-modified': 'Sat, 13 Oct 2018 23:15:15 GMT',
+87 silly get     vary: 'accept-encoding, accept',
+87 silly get     'x-amz-meta-rev': '78-669a628d0cec9ad2697e4bccf6ae054b',
+87 silly get     server: 'cloudflare' } ]
+88 verbose etag https://registry.npmjs.org/install from cache
+89 verbose get saving install to /home/sambulo/.npm/registry.npmjs.org/install/.cache.json
+90 http 304 https://registry.npmjs.org/react-bootstrap
+91 verbose headers { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+91 verbose headers   connection: 'keep-alive',
+91 verbose headers   'set-cookie':
+91 verbose headers    [ '__cfduid=ddab0e2ee308a39912d766634162cb0341545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+91 verbose headers   'cf-cache-status': 'HIT',
+91 verbose headers   'cache-control': 'max-age=300',
+91 verbose headers   'cf-ray': '48dd02f468d635a8-LHR',
+91 verbose headers   etag: '"5c6e4c4d58323aa48f076699a2230980"',
+91 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+91 verbose headers   'last-modified': 'Wed, 14 Nov 2018 15:46:19 GMT',
+91 verbose headers   vary: 'accept-encoding, accept',
+91 verbose headers   'x-amz-meta-rev': '271-d6f75459414ded7359d58f555e1c4199',
+91 verbose headers   server: 'cloudflare' }
+92 silly get cb [ 304,
+92 silly get   { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+92 silly get     connection: 'keep-alive',
+92 silly get     'set-cookie':
+92 silly get      [ '__cfduid=ddab0e2ee308a39912d766634162cb0341545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+92 silly get     'cf-cache-status': 'HIT',
+92 silly get     'cache-control': 'max-age=300',
+92 silly get     'cf-ray': '48dd02f468d635a8-LHR',
+92 silly get     etag: '"5c6e4c4d58323aa48f076699a2230980"',
+92 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+92 silly get     'last-modified': 'Wed, 14 Nov 2018 15:46:19 GMT',
+92 silly get     vary: 'accept-encoding, accept',
+92 silly get     'x-amz-meta-rev': '271-d6f75459414ded7359d58f555e1c4199',
+92 silly get     server: 'cloudflare' } ]
+93 verbose etag https://registry.npmjs.org/react-bootstrap from cache
+94 verbose get saving react-bootstrap to /home/sambulo/.npm/registry.npmjs.org/react-bootstrap/.cache.json
+95 http 304 https://registry.npmjs.org/npm
+96 verbose headers { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+96 verbose headers   connection: 'keep-alive',
+96 verbose headers   'set-cookie':
+96 verbose headers    [ '__cfduid=df759d51e9d279468f00c6e97f946eb661545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+96 verbose headers   'cf-cache-status': 'HIT',
+96 verbose headers   'cache-control': 'max-age=300',
+96 verbose headers   'cf-ray': '48dd02f489be35c6-LHR',
+96 verbose headers   etag: '"647d10477d3ca923ad1954366807a379"',
+96 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+96 verbose headers   'last-modified': 'Wed, 12 Dec 2018 22:01:35 GMT',
+96 verbose headers   vary: 'accept-encoding, accept',
+96 verbose headers   'x-amz-meta-rev': '1995-be568287de4d20bcdd20a78f297c33c6',
+96 verbose headers   server: 'cloudflare' }
+97 silly get cb [ 304,
+97 silly get   { date: 'Sun, 23 Dec 2018 18:50:02 GMT',
+97 silly get     connection: 'keep-alive',
+97 silly get     'set-cookie':
+97 silly get      [ '__cfduid=df759d51e9d279468f00c6e97f946eb661545591002; expires=Mon, 23-Dec-19 18:50:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+97 silly get     'cf-cache-status': 'HIT',
+97 silly get     'cache-control': 'max-age=300',
+97 silly get     'cf-ray': '48dd02f489be35c6-LHR',
+97 silly get     etag: '"647d10477d3ca923ad1954366807a379"',
+97 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+97 silly get     'last-modified': 'Wed, 12 Dec 2018 22:01:35 GMT',
+97 silly get     vary: 'accept-encoding, accept',
+97 silly get     'x-amz-meta-rev': '1995-be568287de4d20bcdd20a78f297c33c6',
+97 silly get     server: 'cloudflare' } ]
+98 verbose etag https://registry.npmjs.org/npm from cache
+99 verbose get saving npm to /home/sambulo/.npm/registry.npmjs.org/npm/.cache.json
+100 silly rollbackFailedOptional Starting
+101 silly rollbackFailedOptional Finishing
+102 silly runTopLevelLifecycles Starting
+103 silly runTopLevelLifecycles Finishing
+104 silly install printInstalled
+105 verbose stack Error: ENOENT: no such file or directory, open '/home/sambulo/Desktop/JOBINTERVIEW/$'
+106 verbose cwd /home/sambulo/Desktop/JOBINTERVIEW
+107 error Linux 4.15.0-43-generic
+108 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "react" "react-dom" "$" "npm" "install" "--save" "react-bootstrap"
+109 error node v8.10.0
+110 error npm  v3.5.2
+111 error path /home/sambulo/Desktop/JOBINTERVIEW/$
+112 error code ENOENT
+113 error errno -2
+114 error syscall open
+115 error enoent ENOENT: no such file or directory, open '/home/sambulo/Desktop/JOBINTERVIEW/$'
+116 error enoent ENOENT: no such file or directory, open '/home/sambulo/Desktop/JOBINTERVIEW/$'
+116 error enoent This is most likely not a problem with npm itself
+116 error enoent and is related to npm not being able to find a file.
+117 verbose exit [ -2, true ]
