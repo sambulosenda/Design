@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home'
+import Navbar from './components/CustomNavbar';
+import Navbar2 from './components/customNavbar2';
 
 
 class App extends Component {
   render() {
     return (
-    <Router>
-      <div>
-        
+    <div className ="row">
+        <Navbar />
+        <Navbar2 />
       </div>
-    </Router>
     );
   }
 }
