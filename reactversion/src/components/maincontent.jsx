@@ -6,7 +6,7 @@ class maincontent extends Component {
     render() {
         return (
             <div className="container">
-                   <div className="content">
+                  
       <h1 class="title"><i className="fas fas1 fa-check"></i>CSed ut Perspiciatis unde</h1>
       <p>
         Sed ut Perspiciatis unde ominis iste natus error sit voluptatem accusantium doloremque laudantium,total rem
@@ -77,7 +77,7 @@ class maincontent extends Component {
         </div>
       </div>
     </div>
-  </div>
+
             
         );
     }

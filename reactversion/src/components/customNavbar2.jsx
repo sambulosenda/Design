@@ -5,6 +5,8 @@ import { Navbar, Nav, NavItem, MenuItem , NavDropdown } from 'react-bootstrap';
 class CustomNavbar2 extends Component {
     render() {
         return (
+          <div className="container">
+
           <ul class="topnav1">
           <li class="divider Stunt">Sunt 
           </li>
@@ -39,6 +41,7 @@ class CustomNavbar2 extends Component {
     
           </div>
         </ul>
+        </div>
           
         )
     }
