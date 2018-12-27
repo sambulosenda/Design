@@ -5,7 +5,7 @@ import { Navbar, Nav, NavItem, MenuItem , NavDropdown } from 'react-bootstrap';
 class CustomNavbar2 extends Component {
     render() {
         return (
-          <div className="container">
+          <div className="container ">
 
           <ul class="topnav1">
           <li class="divider Stunt">Sunt 
@@ -13,7 +13,7 @@ class CustomNavbar2 extends Component {
     
           <li class="divider">
             <div class="my-fancy-container">
-              <i class="fas fa-chevron-circle-down"></i>
+              <i class="fag6y@#Rsda2269PpCp6@$s fa-chevron-circle-down"></i>
               <span class=" my-text">Betae Vita</span>
             </div>
           </li>

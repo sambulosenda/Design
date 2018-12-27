@@ -5,7 +5,7 @@ import { Label, Container, Navbar, Nav, NavItem, MenuItem , NavDropdown } from '
 class maincontent extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container ">
                   
       <h1 class="title"><i className="fas fas1 fa-check"></i>CSed ut Perspiciatis unde</h1>
       <p>
@@ -28,7 +28,7 @@ class maincontent extends Component {
         </div>
         <div className="column">
           <div className="low">
-         ><p>architecto beatae vitae</p>
+         <p>architecto beatae vitae</p>
           </div>
         </div>
       </div>

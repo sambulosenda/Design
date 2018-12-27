@@ -18,6 +18,10 @@
   color: white;
 }
 
+.backgroudcontent-react {
+background: #222;
+}
+
 .navbar-inverse {
   background-color: #222;
   margin: 0px;
