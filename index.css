@@ -5,6 +5,21 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 
+.name {
+  flex-grow: 2;
+  padding-right: 30px;
+
+}
+
+.icon {
+  margin-right: 1px;
+  background-color: #fff;
+  padding: 10px;
+  color: #000;
+  border-radius: 50%;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -58,6 +73,8 @@ li a {
 .profile {
   float: right;
   margin-right: 60px;
+  margin-top: 10px;
+  padding: 2px 
 }
 
 .Stunt {
